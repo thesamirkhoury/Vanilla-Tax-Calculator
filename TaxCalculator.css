@@ -1,0 +1,58 @@
+*{
+    font-family: "Helvetica Neue";
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+header{
+    background-color: deepskyblue;
+    padding: 0;
+    overflow: auto;
+}
+
+header h1{
+    float: left;
+    top: 10px;
+    left: 10px;
+    margin-top: 0;
+    padding-left: 50px;
+}
+
+#logo{
+    width: 100px;
+    float: right;
+    padding-right: 10%;
+}
+#taxInput{
+    padding-left: 10px;
+}
+
+.monthInput{
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+.monthsLabel{
+    float:left;
+    padding-right: 10px;
+    width: 65pt;
+}
+
+#calc{
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-size: 12pt;
+    margin-left: 10px;
+}
+
+.taxAnswer{
+    margin-left: 10px;
+    color: blue;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
